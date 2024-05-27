@@ -11,9 +11,11 @@
             "id": "c3e24345aab3154e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_site/assets/minima-social-icons.svg"
+                "file": "_posts/BATUMI - Boom Town.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_site/assets/minima-social-icons.svg",
+                "file": "_posts/BATUMI - Boom Town.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_site/assets/minima-social-icons.svg",
+                "file": "_posts/BATUMI - Boom Town.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_site/assets/minima-social-icons.svg"
+                "file": "_posts/BATUMI - Boom Town.md"
               }
             }
           }
@@ -146,10 +148,13 @@
   },
   "active": "c3e24345aab3154e",
   "lastOpenFiles": [
-    "CNAME",
-    "_posts/2024-05-27-batumi.md",
-    "_posts/BATUMI - Boom Town.md",
     "_posts/2024-05-27-batumi-boom-town.md",
-    "_site/assets/minima-social-icons.svg"
+    "_posts/BATUMI - Boom Town.md",
+    "_posts/2024-04-26-welcome-to-jekyll.md",
+    "about.md",
+    "index.md",
+    "_site/assets/minima-social-icons.svg",
+    "CNAME",
+    "_posts/2024-05-27-batumi.md"
   ]
 }
