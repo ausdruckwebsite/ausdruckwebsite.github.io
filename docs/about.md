@@ -3,16 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+**AUSDRUCK** ist unser Versuch ein Format zu finden, das wir in erster Linie selber als ansprechend empfinden. Eine Darstellung unsere Arbeiten in einer Form die sowohl die digitale als auch haptische Welt verbindet und im besten Falle im Überfluss an Angebot nicht in unmittelbare in Vergessenheit gerät. 
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Es soll publizieren auf kleiner Ebene ermöglichen, sowie die verschiedenste Formen des Ausdrucks in Bild, Ton und Text vereinen können. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Quasi ein Verlag.

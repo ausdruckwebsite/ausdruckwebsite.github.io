@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-26-welcome-to-jekyll.md",
+                "file": "about.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-26-welcome-to-jekyll.md",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-26-welcome-to-jekyll.md",
+                "file": "about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-26-welcome-to-jekyll.md"
+                "file": "about.md"
               }
             }
           }
@@ -150,9 +150,9 @@
   "lastOpenFiles": [
     "_posts/2024-05-27-batumi-boom-town.md",
     "_posts/2024-04-26-welcome-to-jekyll.md",
-    "_posts/BATUMI - Boom Town.md",
     "about.md",
     "index.md",
+    "_posts/BATUMI - Boom Town.md",
     "_site/assets/minima-social-icons.svg",
     "CNAME",
     "_posts/2024-05-27-batumi.md"
