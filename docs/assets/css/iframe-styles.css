@@ -2,7 +2,10 @@
 iframe {
     border: none;
     width: 100%;
-    height: auto;
+    height: 100vh; /* Vollständige Höhe des Viewports */
+    display: block; /* Blockelement, um Platz für den Zurück-Button zu ermöglichen */
+    margin: 0; /* Kein zusätzlicher Rand */
+    padding: 0; /* Kein zusätzlicher Innenabstand */
 }
 
 iframe .back-button {
