@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "BATUMI - BOOM Town"
-date:   2024-05-27 21:47:00 +0200
+title: BATUMI - BOOM Town
+date: 2024-05-27 21:47:00 +0200
 categories: jekyll update
+permalink: /batumi/boom-town
 ---
 
 As we got closer to the city, big advertising signs on the side of the road displayed brand-new apartments for sale. As the hillside opened up and the road led through the first outskirts of the city, tall construction sites on the upper side of the road presented themselves to us. Yet, we were still guessing what all this meant because, so far, we had experienced the Georgian building scapes as only minimally maintained post-Soviet towns with chaotic road layouts. As soon as we arrived at the coastline where the view opened up to the main city, we understood why people were calling this 'the Las Vegas of the Black Sea.' Batumi really was a blinking and colorfully illuminated agglomeration of extravagant high-rises. 
