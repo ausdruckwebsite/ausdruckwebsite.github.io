@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "media/photo_batumi1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -188,11 +188,11 @@
   "lastOpenFiles": [
     "media/photo_example.md",
     "media/photo_batumi1.md",
+    "_site/assets/css/style.css",
+    "_site/assets/css",
     "_posts/2024-05-27-batumi-boom-town.md",
     "_posts/2024-04-26-welcome-to-jekyll.md",
-    "_site/assets/css/style.css",
     "_site/assets/css/Untitled-1.css",
-    "_site/assets/css",
     "_site/assets/Untitled-1.css",
     "_layouts/fullscreen.html",
     "_layouts",
