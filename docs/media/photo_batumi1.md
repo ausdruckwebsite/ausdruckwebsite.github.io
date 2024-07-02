@@ -5,6 +5,11 @@ permalink: /media/photo_batumi1
 published: true
 back_link: /batumi/boom-town
 ---
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
 
 <div style="margin: 20px auto;">
 
