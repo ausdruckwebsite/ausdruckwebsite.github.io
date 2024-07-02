@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: fullscreen
 title: Batumi 1
 permalink: /media/photo_batumi1
 published: true
+backlink:
 ---
 
 <div style="text-align: center;">
