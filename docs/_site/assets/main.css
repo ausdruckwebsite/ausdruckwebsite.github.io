@@ -195,39 +195,3 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-
-
-/* assets/style.css */
-
-.back-button {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 16px;
-  color: #333;
-  text-decoration: none;
-  border: 1px solid #333;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* Hintergrundfarbe mit Transparenz */
-  text-align: center;
-  cursor: pointer;
-  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Weicher Übergang */
-  visibility: hidden; /* Standardmäßig unsichtbar */
-  opacity: 0; /* Standardmäßig unsichtbar */
-}
-
-.back-button:hover,
-.back-button:focus {
-  visibility: visible;
-  opacity: 1; /* Sichtbar bei Hover oder Fokus */
-}
-
-body:active .back-button,
-body:hover .back-button {
-  visibility: visible;
-  opacity: 1;
-}
-
-.back-button span {
-  display: block;
-}
