@@ -3,7 +3,7 @@ layout: page
 title: "photo_example"
 permalink: /media/photo_example/
 published: false
-back_link:
+back_link: 
 ---
 <div style="margin: 20px auto;">
 
