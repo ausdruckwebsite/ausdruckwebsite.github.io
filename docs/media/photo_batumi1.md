@@ -3,7 +3,7 @@ layout: fullscreen
 title: Batumi 1
 permalink: /media/photo_batumi1
 published: true
-back_link: /batumi/boom_town
+back_link: /batumi/boom-town
 ---
 
 <div style="margin: 20px auto;">
