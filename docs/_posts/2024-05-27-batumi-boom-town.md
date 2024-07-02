@@ -11,6 +11,6 @@ As we got closer to the city, big advertising signs on the side of the road disp
 We looked for accommodations on Airbnb beforehand. Our first apartment was in one of the older districts of Batumi, a four-story house with an external staircase. Because the building was empty apart from us, we moved up one floor. Outside our bedroom window, we could see the new-generation high-rises towering above the tin roofs of the aged apartment blocks from the Soviet era. It promised to become an exciting stay.
 # 1 The Night of Arrival
 
-<img src="audruck.website/media/photo_batumi1">
+<img src="ausdruck.website/media/photo_batumi1">
 
 <img src="http://www.bennettcreations.de/files/bennettcreations/photos/Georgia%20Batumi%202024/IMG_2438sm.jpg">
