@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '"Photo_batumi1"'
+title: Batumi 1
 permalink: /media/photo_batumi1
 published: true
 ---
