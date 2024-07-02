@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; /* Hintergrundfarbe für den Fullscreen */
+        }
+        .content-container {
+            position: relative;
+            text-align: center;
+            width: 100%;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5); /* Hintergrundfarbe des Zurück-Buttons */
+            z-index: 100; /* Stellt sicher, dass der Button über dem Inhalt liegt */
+            transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+            visibility: hidden;
+            opacity: 0;
+        }
+        .back-button:hover,
+        .back-button:focus {
+            visibility: visible;
+            opacity: 1;
+        }
+        .back-button span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <a href="{{ page.back_link }}" class="back-button">
+            <span>zurück zum</span>
+            <span>Beitrag</span>
+        </a>
+        {{ content }}
+    </div>
+</body>
+</html>
