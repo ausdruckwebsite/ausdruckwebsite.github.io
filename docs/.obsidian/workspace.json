@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "media/photo_batumi1.md",
+                "file": "_posts/2024-05-27-batumi-boom-town.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "media/photo_batumi1.md",
+                "file": "_posts/2024-05-27-batumi-boom-town.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "media/photo_batumi1.md",
+                "file": "_posts/2024-05-27-batumi-boom-town.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "media/photo_batumi1.md"
+                "file": "_posts/2024-05-27-batumi-boom-town.md"
               }
             }
           }
@@ -185,20 +185,21 @@
   },
   "active": "c3e24345aab3154e",
   "lastOpenFiles": [
-    "media/photo_example.md",
-    "media/photo_batumi1.md",
-    "_layouts/audio_fullscreen.html",
-    "_layouts/image_fullscreen.html",
-    "_layouts/video_fullscreen.html",
-    "_layouts/fullscreen3.html",
-    "_site/assets/js/script.js",
-    "_site/assets/js",
-    "assets/js/script.js",
-    "assets/js",
-    "assets/Neuer Ordner",
-    "_posts/2024-05-27-batumi-boom-town.md",
+    "_site/assets/js/common.js",
+    "assets/js/common.js",
+    "_site/assets/js/modal.js",
+    "assets/js/modal.js",
+    "_site/assets/js/fullscreen.js",
+    "assets/js/fullscreen.js",
+    "_site/assets/css/modal.css",
+    "assets/css/modal.css",
+    "_site/assets/css/fullscreen.css",
+    "assets/css/fullscreen.css",
+    "assets/css/Neuer Ordner",
     "_posts/2024-04-26-welcome-to-jekyll.md",
-    "assets/css/iframe-styles.css",
+    "media/photo_batumi1.md",
+    "media/photo_example.md",
+    "_posts/2024-05-27-batumi-boom-town.md",
     "about.md",
     "_site/assets/minima-social-icons.svg",
     "media/video_example.md",
