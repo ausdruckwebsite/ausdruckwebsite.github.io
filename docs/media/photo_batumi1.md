@@ -1,5 +1,5 @@
 ---
-layout: fullscreen3
+layout: image_fullscreen
 title: Batumi 1
 permalink: /media/photo_batumi1
 published: true

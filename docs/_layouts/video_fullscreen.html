@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="content-container" id="fullscreen-container">
+        <video controls autoplay>
+            <source src="{{ page.video_src }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="{{ page.back_link }}" class="exit-fullscreen-button" id="exit-fullscreen-button">Vollbild verlassen</a>
+    </div>
+
+    <div id="fullscreen-modal" class="modal">
+        <div class="modal-content">
+            <p>Möchten Sie den Vollbildmodus aktivieren?</p>
+            <button id="accept-fullscreen">Ja</button>
+            <button id="decline-fullscreen">Nein</button>
+            <label>
+                <input type="checkbox" id="dont-ask-again">
+                Diese Meldung nicht erneut anzeigen
+            </label>
+        </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

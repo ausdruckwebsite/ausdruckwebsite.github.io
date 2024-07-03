@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="content-container" id="audio-container">
+        <audio controls autoplay>
+            <source src="{{ page.audio_src }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <a href="{{ page.back_link }}" class="exit-audio-button" id="exit-audio-button">Zurück</a>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
