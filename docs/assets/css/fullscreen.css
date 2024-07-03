@@ -3,35 +3,21 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh; /* Stellen Sie sicher, dass es die gesamte Höhe des Viewports ausfüllt */
   position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #000;  /* Optional: Hintergrundfarbe für besseren Kontrast */
 }
 
-.exit-fullscreen-button {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 16px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  text-decoration: none;
-  cursor: pointer;
-  z-index: 100;
+/* Bild immer zentrieren */
+#fullscreen-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Behält das Seitenverhältnis bei und passt das Bild innerhalb des Containers an */
 }
 
-css
-#fullscreen-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-color: #000; /* Optional: Hintergrundfarbe für besseren Kontrast */
-}
-
-/* Style for the back button */
+/* Stil für den 'Zum Beitrag'-Button */
 .back-button {
   display: none; /* Versteckt den Button standardmäßig */
   position: absolute;
@@ -39,19 +25,42 @@ css
   left: 20px;
   font-size: 16px;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+  background-color: #007bff;
+  padding: 10px 20px;
   text-decoration: none;
   z-index: 100;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  opacity: 0;
 }
 
-/* Show the button when hovering over the container */
+/* Knopf anzeigen, wenn über den Container gefahren wird */
 #fullscreen-container:hover .back-button,
-#fullscreen-container:focus .back-button {
-  display: block;
-}
-
-/* Show the button on touch devices */
+#fullscreen-container:focus-within .back-button,
 body:active .back-button {
   display: block;
+  opacity: 1;
+}
+
+/* Subtiler Hover-Effekt */
+.back-button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Stil für die Vollbildmodus-Erlauben-Buttons */
+.fullscreen-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.fullscreen-button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
 }

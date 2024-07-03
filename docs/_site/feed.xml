@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-03T15:35:57+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AUSDRUCK</title><subtitle>Quasi ein Verlag.</subtitle><entry><title type="html">BATUMI - BOOM Town</title><link href="http://localhost:4000/batumi/boom-town" rel="alternate" type="text/html" title="BATUMI - BOOM Town" /><published>2024-05-27T21:47:00+02:00</published><updated>2024-05-27T21:47:00+02:00</updated><id>http://localhost:4000/batumi/batumi-boom-town</id><content type="html" xml:base="http://localhost:4000/batumi/boom-town"><![CDATA[<head>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-03T16:50:11+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AUSDRUCK</title><subtitle>Quasi ein Verlag.</subtitle><entry><title type="html">BATUMI - BOOM Town</title><link href="http://localhost:4000/batumi/boom-town" rel="alternate" type="text/html" title="BATUMI - BOOM Town" /><published>2024-05-27T21:47:00+02:00</published><updated>2024-05-27T21:47:00+02:00</updated><id>http://localhost:4000/batumi/batumi-boom-town</id><content type="html" xml:base="http://localhost:4000/batumi/boom-town"><![CDATA[<head>
 
     <link rel="stylesheet" href="/assets/css/iframe-styles.css" />
 
@@ -8,7 +8,7 @@
 <p>We looked for accommodations on Airbnb beforehand. Our first apartment was in one of the older districts of Batumi, a four-story house with an external staircase. Because the building was empty apart from us, we moved up one floor. Outside our bedroom window, we could see the new-generation high-rises towering above the tin roofs of the aged apartment blocks from the Soviet era. It promised to become an exciting stay.</p>
 <h1 id="1-the-night-of-arrival">1 The Night of Arrival</h1>
 
-<iframe src="ausdruck.website/media/photo_batumi1" width="100%" height="500px"></iframe>
+<iframe src="../media/photo_batumi1" width="100%" height="100vh" style="border: none; display: block;"></iframe>
 
 <p><a href="http://ausdruck.website/media/photo_batumi1">Link zur fullscreen media Seite</a></p>
 

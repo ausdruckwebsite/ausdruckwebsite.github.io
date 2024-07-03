@@ -1,4 +1,3 @@
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,22 +12,20 @@ html
 <body>
     <div id="fullscreen-container">
         <img src="{{ page.image_src }}" alt="{{ page.title }}">
-        <!-- Zurück-Button -->
-        <a href="{{ page.back_link }}" id="back-button" class="back-button">Zurück</a>
+        <!-- Zurück-Button, der zur Post-Seite führt -->
+        <a href="{{ page.back_link }}" id="back-button" class="back-button">Zum Beitrag</a>
     </div>
 
     <div id="fullscreen-modal" class="modal">
         <div class="modal-content">
-            <p>Darstellungen im Vollbild Modus erlauben</p>
-            <button id="accept-fullscreen">Akzeptieren</button>
-            <button id="decline-fullscreen">Ablehnen</button>
+            <p>Darstellungen im Vollbildmodus erlauben</p>
+            <button id="accept-fullscreen" class="fullscreen-button">Akzeptieren</button>
+            <button id="decline-fullscreen" class="fullscreen-button">Ablehnen</button>
             <label>
-                <input type="checkbox" id="dont-ask-again"> Einstellungen speichern
+                <input type="checkbox" id="dont-ask-again" checked> Einstellungen speichern
             </label>
         </div>
     </div>
-
-    <button id="exit-fullscreen-button">Vollbild verlassen</button>
 
     <script src="/assets/js/common.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

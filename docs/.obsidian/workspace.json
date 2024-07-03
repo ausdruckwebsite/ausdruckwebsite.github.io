@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-27-batumi-boom-town.md",
-                "mode": "preview",
-                "backlinks": true,
+                "file": "media/photo_batumi1.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": true
               }
             }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-27-batumi-boom-town.md",
+                "file": "media/photo_batumi1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-27-batumi-boom-town.md",
+                "file": "media/photo_batumi1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-27-batumi-boom-town.md"
+                "file": "media/photo_batumi1.md"
               }
             }
           }
@@ -186,9 +186,9 @@
   },
   "active": "c3e24345aab3154e",
   "lastOpenFiles": [
+    "_posts/2024-05-27-batumi-boom-town.md",
     "media/photo_batumi1.md",
     "media/photo_example.md",
-    "_posts/2024-05-27-batumi-boom-town.md",
     "_posts/2024-04-26-welcome-to-jekyll.md",
     "_site/assets/js/iframe-styles.js",
     "assets/js/iframe-styles.js",
