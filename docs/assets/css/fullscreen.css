@@ -19,3 +19,39 @@
   cursor: pointer;
   z-index: 100;
 }
+
+css
+#fullscreen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #000; /* Optional: Hintergrundfarbe für besseren Kontrast */
+}
+
+/* Style for the back button */
+.back-button {
+  display: none; /* Versteckt den Button standardmäßig */
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+/* Show the button when hovering over the container */
+#fullscreen-container:hover .back-button,
+#fullscreen-container:focus .back-button {
+  display: block;
+}
+
+/* Show the button on touch devices */
+body:active .back-button {
+  display: block;
+}

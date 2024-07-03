@@ -1,3 +1,4 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +8,13 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/fullscreen.css">
     <link rel="stylesheet" href="/assets/css/modal.css">
+    <link rel="stylesheet" href="/assets/css/iframe-styles.css">
 </head>
 <body>
     <div id="fullscreen-container">
         <img src="{{ page.image_src }}" alt="{{ page.title }}">
+        <!-- Zurück-Button -->
+        <a href="{{ page.back_link }}" id="back-button" class="back-button">Zurück</a>
     </div>
 
     <div id="fullscreen-modal" class="modal">
@@ -29,5 +33,6 @@
     <script src="/assets/js/common.js"></script>
     <script src="/assets/js/fullscreen.js"></script>
     <script src="/assets/js/modal.js"></script>
+    <script src="/assets/js/iframe-styles.js"></script>
 </body>
 </html>
