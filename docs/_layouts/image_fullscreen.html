@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <div class="content-container" id="fullscreen-container">
+    <div id="fullscreen-container">
         <img src="{{ page.image_src }}" alt="{{ page.title }}">
-        <a href="{{ page.back_link }}" class="exit-fullscreen-button" id="exit-fullscreen-button">Vollbild verlassen</a>
     </div>
 
     <div id="fullscreen-modal" class="modal">
         <div class="modal-content">
-            <p>Möchten Sie den Vollbildmodus aktivieren?</p>
-            <button id="accept-fullscreen">Ja</button>
-            <button id="decline-fullscreen">Nein</button>
+            <p>Darstellungen im Vollbild Modus erlauben</p>
+            <button id="accept-fullscreen">Akzeptieren</button>
+            <button id="decline-fullscreen">Ablehnen</button>
             <label>
-                <input type="checkbox" id="dont-ask-again">
-                Diese Meldung nicht erneut anzeigen
+                <input type="checkbox" id="dont-ask-again"> Einstellungen speichern
             </label>
         </div>
     </div>
+
+    <button id="exit-fullscreen-button">Vollbild verlassen</button>
 
     <script src="/assets/js/script.js"></script>
 </body>

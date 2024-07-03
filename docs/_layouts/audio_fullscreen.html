@@ -1,3 +1,4 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +8,25 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <div class="content-container" id="audio-container">
-        <audio controls autoplay>
+    <div id="fullscreen-container">
+        <audio controls>
             <source src="{{ page.audio_src }}" type="audio/mpeg">
-            Your browser does not support the audio element.
+            Ihr Browser unterstützt das Audio-Tag nicht.
         </audio>
-        <a href="{{ page.back_link }}" class="exit-audio-button" id="exit-audio-button">Zurück</a>
     </div>
+
+    <div id="fullscreen-modal" class="modal">
+        <div class="modal-content">
+            <p>Darstellungen im Vollbild Modus erlauben</p>
+            <button id="accept-fullscreen">Akzeptieren</button>
+            <button id="decline-fullscreen">Ablehnen</button>
+            <label>
+                <input type="checkbox" id="dont-ask-again"> Einstellungen speichern
+            </label>
+        </div>
+    </div>
+
+    <button id="exit-fullscreen-button">Vollbild verlassen</button>
 
     <script src="/assets/js/script.js"></script>
 </body>

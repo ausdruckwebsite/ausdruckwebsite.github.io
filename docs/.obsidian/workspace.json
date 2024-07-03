@@ -183,8 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0c41aa434fa4886",
+  "active": "c3e24345aab3154e",
   "lastOpenFiles": [
+    "media/photo_example.md",
+    "media/photo_batumi1.md",
     "_layouts/audio_fullscreen.html",
     "_layouts/image_fullscreen.html",
     "_layouts/video_fullscreen.html",
@@ -194,13 +196,10 @@
     "assets/js/script.js",
     "assets/js",
     "assets/Neuer Ordner",
-    "media/photo_example.md",
     "_posts/2024-05-27-batumi-boom-town.md",
     "_posts/2024-04-26-welcome-to-jekyll.md",
-    "media/photo_batumi1.md",
     "assets/css/iframe-styles.css",
     "about.md",
-    "assets/css/style.css",
     "_site/assets/minima-social-icons.svg",
     "media/video_example.md",
     "index.md",
