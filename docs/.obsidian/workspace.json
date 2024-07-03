@@ -14,9 +14,9 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2024-05-27-batumi-boom-town.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           },
@@ -186,9 +186,10 @@
   },
   "active": "c3e24345aab3154e",
   "lastOpenFiles": [
-    "_posts/2024-04-26-welcome-to-jekyll.md",
-    "_posts/2024-05-27-batumi-boom-town.md",
     "media/photo_batumi1.md",
+    "media/photo_example.md",
+    "_posts/2024-05-27-batumi-boom-town.md",
+    "_posts/2024-04-26-welcome-to-jekyll.md",
     "_site/assets/js/iframe-styles.js",
     "assets/js/iframe-styles.js",
     "_site/assets/js/common.js",
@@ -199,7 +200,6 @@
     "assets/js/fullscreen.js",
     "_site/assets/css/modal.css",
     "assets/css/modal.css",
-    "media/photo_example.md",
     "about.md",
     "_site/assets/minima-social-icons.svg",
     "media/video_example.md",
