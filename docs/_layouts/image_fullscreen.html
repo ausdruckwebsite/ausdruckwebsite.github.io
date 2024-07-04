@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/assets/css/fullscreen.css">
     <link rel="stylesheet" href="/assets/css/modal.css">
 </head>
-<body>
-    <div id="fullscreen-container">
+<body data-orientation="{{ page.orientation }}" data-fullscreen="{{ page.fullscreen }}">
+    <div id="fullscreen-container" class="{{ page.orientation }}">
         <img src="{{ page.image_src }}" alt="{{ page.title }}">
         <a href="{{ page.back_link }}" id="back-button" class="back-button">Zum Beitrag</a>
     </div>

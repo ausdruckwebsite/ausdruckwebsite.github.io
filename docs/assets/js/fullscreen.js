@@ -1,56 +1,37 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var container = document.getElementById('fullscreen-container');
-    var exitFullscreenButton = document.getElementById('exit-fullscreen-button');
-
-    // Logging for debugging
-    console.log('Fullscreen script loaded');
-
-    // Function to exit fullscreen mode
-    function exitFullscreen() {
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.mozCancelFullScreen) { // Firefox
-            document.mozCancelFullScreen();
-        } else if (document.webkitExitFullscreen) { // Chrome, Safari and Opera
-            document.webkitExitFullscreen();
-        } else if (document.msExitFullscreen) { // IE/Edge
-            document.msExitFullscreen();
-        }
-    }
-
-    // Function to enter fullscreen mode
-    function enterFullscreen(element) {
-        if (element.requestFullscreen) {
-            element.requestFullscreen().catch(err => {
-                console.log('Fullscreen request failed:', err);
+document.addEventListener("DOMContentLoaded", function() {
+    const isFullscreenAllowed = localStorage.getItem('fullscreenAllowed') === 'true';
+    if (isFullscreenAllowed) {
+        document.querySelectorAll('.embedded-media').forEach(function(iframe) {
+            iframe.addEventListener('click', function() {
+                window.location.href = iframe.dataset.fullscreenLink;
             });
-        } else if (element.mozRequestFullScreen) { // Firefox
-            element.mozRequestFullScreen().catch(err => {
-                console.log('Fullscreen request failed:', err);
-            });
-        } else if (element.webkitRequestFullscreen) { // Chrome, Safari and Opera
-            element.webkitRequestFullscreen().catch(err => {
-                console.log('Fullscreen request failed:', err);
-            });
-        } else if (element.msRequestFullscreen) { // IE/Edge
-            element.msRequestFullscreen().catch(err => {
-                console.log('Fullscreen request failed:', err);
-            });
-        } else {
-            console.log('Fullscreen API is not supported.');
-        }
-    }
+        });
+    } else {
+        const fullscreenModal = document.getElementById('fullscreen-modal');
+        fullscreenModal.style.display = 'block';
+        
+        document.getElementById('accept-fullscreen').addEventListener('click', function() {
+            localStorage.setItem('fullscreenAllowed', 'true');
+            fullscreenModal.style.display = 'none';
+        });
 
-    // Event listener for exit fullscreen button
-    if (exitFullscreenButton) {
-        exitFullscreenButton.addEventListener('click', function() {
-            console.log('Exit fullscreen button clicked');
-            exitFullscreen();
+        document.getElementById('decline-fullscreen').addEventListener('click', function() {
+            fullscreenModal.style.display = 'none';
         });
     }
 
-    // Export functions to be used by other scripts
-    window.myFullscreenLib = {
-        enterFullscreen: enterFullscreen
-    };
+    const orientation = document.body.dataset.orientation;
+    const fullscreen = document.body.dataset.fullscreen === 'true';
+    if (fullscreen) {
+        if (orientation === 'landscape') {
+            document.documentElement.requestFullscreen();
+        } else {
+            document.documentElement.style.height = '100vh';
+            document.documentElement.style.width = '100vw';
+            document.documentElement.style.overflow = 'hidden';
+            document.documentElement.style.position = 'fixed';
+            document.documentElement.style.top = '0';
+            document.documentElement.style.left = '0';
+        }
+    }
 });
