@@ -1,6 +1,9 @@
-// Allgemeine Funktionen, falls du welche hast
-
-// Example of a general utility function
-function logMessage(message) {
-    console.log(message);
-}
+document.addEventListener("DOMContentLoaded", function() {
+    var backButton = document.getElementById('back-button');
+    if (backButton) {
+        backButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            window.history.back();
+        });
+    }
+});

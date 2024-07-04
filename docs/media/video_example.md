@@ -1,17 +1,8 @@
 ---
-layout: page
-title: video_example
-permalink: /media/video_exaple
+layout: video_fullscreen
+title: Batumi Video 1
+permalink: /media/blog-post-name/video1
+video_src: http://example.com/path/to/video.mp4
+back_link: /batumi-boom-town/#iframe-video1-container
 published: false
 ---
-<div style="text-align: center;">
-
-    <a href="/" class="back-button">&#8592; Zurück</a>
-
-    <div style="margin: 20px auto;">
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-
-    </div>
-
-</div>

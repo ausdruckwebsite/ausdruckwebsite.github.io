@@ -3,23 +3,21 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh; /* Stellen Sie sicher, dass es die gesamte Höhe des Viewports ausfüllt */
+  height: 100vh;
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: #000;  /* Optional: Hintergrundfarbe für besseren Kontrast */
+  background-color: #000;
 }
 
-/* Bild immer zentrieren */
-#fullscreen-container img {
+#fullscreen-container img, #fullscreen-container video, #fullscreen-container audio {
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain; /* Behält das Seitenverhältnis bei und passt das Bild innerhalb des Containers an */
+  object-fit: contain;
 }
 
-/* Stil für den 'Zum Beitrag'-Button */
 .back-button {
-  display: none; /* Versteckt den Button standardmäßig */
+  display: none;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -35,7 +33,6 @@
   opacity: 0;
 }
 
-/* Knopf anzeigen, wenn über den Container gefahren wird */
 #fullscreen-container:hover .back-button,
 #fullscreen-container:focus-within .back-button,
 body:active .back-button {
@@ -43,13 +40,11 @@ body:active .back-button {
   opacity: 1;
 }
 
-/* Subtiler Hover-Effekt */
 .back-button:hover {
   background-color: #0056b3;
   transition: background-color 0.3s ease;
 }
 
-/* Stil für die Vollbildmodus-Erlauben-Buttons */
 .fullscreen-button {
   padding: 10px 20px;
   background-color: #007bff;

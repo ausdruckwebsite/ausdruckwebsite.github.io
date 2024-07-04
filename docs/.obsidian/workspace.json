@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "media/photo_batumi1.md",
+                "file": "media/PHOTO1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "media/photo_batumi1.md",
+                "file": "media/PHOTO1.md",
                 "mode": "source",
                 "source": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "media/photo_batumi1.md",
+                "file": "media/PHOTO1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "media/photo_batumi1.md",
+                "file": "media/PHOTO1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "media/photo_batumi1.md"
+                "file": "media/PHOTO1.md"
               }
             }
           }
@@ -186,23 +186,24 @@
   },
   "active": "c3e24345aab3154e",
   "lastOpenFiles": [
+    "_site/media/batumi-boom-town/photo1.html",
+    "_site/media/batumi-boom-town",
     "_posts/2024-05-27-batumi-boom-town.md",
-    "media/photo_batumi1.md",
+    "media/PHOTO1.md",
+    "_site/media/photo1.html",
+    "_site/media",
+    "media/video_example.md",
     "media/photo_example.md",
+    "_site/media/PHOTO1.html",
     "_posts/2024-04-26-welcome-to-jekyll.md",
-    "_site/assets/js/iframe-styles.js",
-    "assets/js/iframe-styles.js",
-    "_site/assets/js/common.js",
-    "assets/js/common.js",
-    "_site/assets/js/modal.js",
-    "assets/js/modal.js",
-    "_site/assets/js/fullscreen.js",
-    "assets/js/fullscreen.js",
-    "_site/assets/css/modal.css",
-    "assets/css/modal.css",
+    "_site/media/blog-post-name.html",
+    "_site/media/blog-post.html",
+    "_site/media/blog-.html",
+    "_site/media/index.html",
+    "_site/media/2024-05-27-batumi-boom-town/video1.html",
+    "_site/media/2024-05-27-batumi-boom-town/PHOTO1.html",
     "about.md",
     "_site/assets/minima-social-icons.svg",
-    "media/video_example.md",
     "index.md",
     "_posts/BATUMI - Boom Town.md",
     "_posts/2024-05-27-batumi.md"

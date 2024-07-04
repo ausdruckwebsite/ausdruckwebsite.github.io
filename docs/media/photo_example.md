@@ -1,22 +1,8 @@
 ---
-layout: page
-title: "photo_example"
-permalink: /media/photo_example/
+layout: image_fullscreen
+title: Photo 1
+permalink: /media/blog-post-name/photo1
+image_src: http://example.com/path/to/photo.jpg
+back_link: path/to/blogpost#iframe-photo1-container
 published: false
-back_link: 
 ---
-
-**internal -> assets**
-<div style="margin: 20px auto;">
-
-    <img src="/assets/photos/photo1.jpg" alt="Photo 1" style="max-width: 100%; height: auto;">
-
-</div>
-
-**external**
-
-<div style="margin: 20px auto;">
-
-    <img src="https://external-url.com/path/to/photo1.jpg" alt="Photo 1" style="max-width: 100%; height: auto;">
-
-</div>

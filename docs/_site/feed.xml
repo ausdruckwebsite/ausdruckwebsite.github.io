@@ -1,33 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-03T16:50:11+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AUSDRUCK</title><subtitle>Quasi ein Verlag.</subtitle><entry><title type="html">BATUMI - BOOM Town</title><link href="http://localhost:4000/batumi/boom-town" rel="alternate" type="text/html" title="BATUMI - BOOM Town" /><published>2024-05-27T21:47:00+02:00</published><updated>2024-05-27T21:47:00+02:00</updated><id>http://localhost:4000/batumi/batumi-boom-town</id><content type="html" xml:base="http://localhost:4000/batumi/boom-town"><![CDATA[<head>
-
-    <link rel="stylesheet" href="/assets/css/iframe-styles.css" />
-
-</head>
-<p>As we got closer to the city, big advertising signs on the side of the road displayed brand-new apartments for sale. As the hillside opened up and the road led through the first outskirts of the city, tall construction sites on the upper side of the road presented themselves to us. Yet, we were still guessing what all this meant because, so far, we had experienced the Georgian building scapes as only minimally maintained post-Soviet towns with chaotic road layouts. As soon as we arrived at the coastline where the view opened up to the main city, we understood why people were calling this ‘the Las Vegas of the Black Sea.’ Batumi really was a blinking and colorfully illuminated agglomeration of extravagant high-rises. </p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-04T13:18:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AUSDRUCK</title><subtitle>Quasi ein Verlag.</subtitle><entry><title type="html">BATUMI - BOOM Town</title><link href="http://localhost:4000/batumi-boom-town" rel="alternate" type="text/html" title="BATUMI - BOOM Town" /><published>2024-05-27T21:47:00+02:00</published><updated>2024-05-27T21:47:00+02:00</updated><id>http://localhost:4000/batumi-boom-town</id><content type="html" xml:base="http://localhost:4000/batumi-boom-town"><![CDATA[<p>As we got closer to the city, big advertising signs on the side of the road displayed brand-new apartments for sale. As the hillside opened up and the road led through the first outskirts of the city, tall construction sites on the upper side of the road presented themselves to us. Yet, we were still guessing what all this meant because, so far, we had experienced the Georgian building scapes as only minimally maintained post-Soviet towns with chaotic road layouts. As soon as we arrived at the coastline where the view opened up to the main city, we understood why people were calling this ‘the Las Vegas of the Black Sea.’ Batumi really was a blinking and colorfully illuminated agglomeration of extravagant high-rises.</p>
 
 <p>We looked for accommodations on Airbnb beforehand. Our first apartment was in one of the older districts of Batumi, a four-story house with an external staircase. Because the building was empty apart from us, we moved up one floor. Outside our bedroom window, we could see the new-generation high-rises towering above the tin roofs of the aged apartment blocks from the Soviet era. It promised to become an exciting stay.</p>
+
 <h1 id="1-the-night-of-arrival">1 The Night of Arrival</h1>
 
-<iframe src="../media/photo_batumi1" width="100%" height="100vh" style="border: none; display: block;"></iframe>
+<p><a id="iframe-photo1-container"></a></p>
+<iframe id="iframe-photo1" src="/media/batumi-boom-town/photo1" class="embedded-media" data-fullscreen-link="/media/batumi-boom-town/photo1"></iframe>
 
-<p><a href="http://ausdruck.website/media/photo_batumi1">Link zur fullscreen media Seite</a></p>
+<p><img src="http://www.bennettcreations.de/files/bennettcreations/photos/Georgia%20Batumi%202024/IMG_2438sm.jpg" /></p>
 
-<iframe src="http://ausdruck.website/media/photo_batumi1"></iframe>
-
-<p><img src="http://www.bennettcreations.de/files/bennettcreations/photos/Georgia%20Batumi%202024/IMG_2438sm.jpg" /></p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/04/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-26T23:31:19+02:00</published><updated>2024-04-26T23:31:19+02:00</updated><id>http://localhost:4000/jekyll/update/2024/04/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/04/26/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<script> 
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.embedded-media').forEach(function(iframe) { 
+        iframe.style.height = 'auto'; 
+        iframe.style.width = '100%'; 
+        iframe.style.border = 'none'; 
+        iframe.addEventListener('click', function() { 
+            window.location.href = iframe.dataset.fullscreenLink; 
+        }); 
+    }); 
+});
+</script>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[As we got closer to the city, big advertising signs on the side of the road displayed brand-new apartments for sale. As the hillside opened up and the road led through the first outskirts of the city, tall construction sites on the upper side of the road presented themselves to us. Yet, we were still guessing what all this meant because, so far, we had experienced the Georgian building scapes as only minimally maintained post-Soviet towns with chaotic road layouts. As soon as we arrived at the coastline where the view opened up to the main city, we understood why people were calling this ‘the Las Vegas of the Black Sea.’ Batumi really was a blinking and colorfully illuminated agglomeration of extravagant high-rises.]]></summary></entry></feed>
